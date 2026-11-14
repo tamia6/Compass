@@ -24,7 +24,7 @@ if CommandLine.arguments.count > 1 {
     for language in ["en", "zh-Hans", "zh-Hant"] {
         let bundle = Bundle(path: app + "/" + language + ".lproj")!
         assert(localized("Level", bundle: bundle) == (language == "en" ? "Level" : (language == "zh-Hans" ? "水平仪" : "水平儀")))
-        assert(bundle.localizedString(forKey: "CFBundleDisplayName", value: nil, table: "InfoPlist") == (language == "en" ? "Compass" : (language == "zh-Hans" ? "指南针" : "指南針")))
+        assert(bundle.localizedString(forKey: "CFBundleDisplayName", value: nil, table: "InfoPlist") == (language == "en" ? "Compass & Level" : (language == "zh-Hans" ? "指南针与水平仪" : "指南針與水平儀")))
     }
     let zh = Bundle(path: app + "/zh-Hans.lproj")!
     let en = Bundle(path: app + "/en.lproj")!

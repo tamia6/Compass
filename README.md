@@ -50,3 +50,5 @@ Apple API 参考：https://developer.apple.com/documentation/corelocation/clloca
 - [隐私政策](https://compass-level-support.pages.dev/privacy)
 
 静态网站源码位于 `site/`。
+
+在应用中长按外观切换按钮，可打开隐私政策和技术支持页面。手机桌面名称为“指南针与水平仪”（英语为“Compass & Level”），避免与系统指南针重名。

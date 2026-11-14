@@ -7,49 +7,49 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Compass"
+            "value": "Compass & Level"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "指南针"
+            "value": "指南针与水平仪"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "指南針"
+            "value": "指南針與水平儀"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "コンパス"
+            "value": "コンパスと水準器"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "나침반"
+            "value": "나침반 및 수평계"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Boussole"
+            "value": "Boussole et niveau"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kompass"
+            "value": "Kompass & Wasserwaage"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Brújula"
+            "value": "Brújula y nivel"
           }
         }
       }

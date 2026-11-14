@@ -227,6 +227,8 @@ struct CompassView: View {
                 .accessibilityHint(Text("Long press to follow system"))
                 .contextMenu {
                     Button("Follow system", systemImage: "circle.lefthalf.filled") { appearance = "system" }
+                    Link("Privacy policy", destination: URL(string: "https://compass-level-support.pages.dev/privacy")!)
+                    Link("Support", destination: URL(string: "https://compass-level-support.pages.dev/support")!)
                 }
                 .position(x: geometry.safeAreaInsets.leading + 38, y: max(geometry.safeAreaInsets.top + 24, 78))
                 Button {
@@ -420,6 +422,8 @@ private struct AdaptiveCompassView: View {
                     }
                     .contextMenu {
                         Button("Follow system", systemImage: "circle.lefthalf.filled") { appearance = "system" }
+                        Link("Privacy policy", destination: URL(string: "https://compass-level-support.pages.dev/privacy")!)
+                        Link("Support", destination: URL(string: "https://compass-level-support.pages.dev/support")!)
                     }
                     .accessibilityHint(Text("Long press to follow system"))
                 }
